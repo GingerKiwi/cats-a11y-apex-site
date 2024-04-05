@@ -30,7 +30,7 @@ h1 {
     font-size: 2.5rem;
     margin: 0;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: var(--ff-heading);
     color: var(--clr-bright-pink);
 }
@@ -45,6 +45,11 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+h4 {
+    font-size: 1.4rem;
     margin-left: 2rem;
 }
 
