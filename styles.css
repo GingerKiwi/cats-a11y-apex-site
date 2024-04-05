@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Lobster&display=swap");
+
+:root {
+    /* Light Theme */
+	--clr-light-pink: #F5CDEC;
+    --clr-bright-pink: #CF03A2;
+    --clr-spice: #783937;
+    --clr-white: #FFFFFF;
+    --clr-black-brown: #201e20;
+
+    /* Dark Theme - coming soon(ish) */
+	
+	
+	/* Typography */
+	--ff-brand: "Lobster", "Dosis", sans-serif;
+    --ff-heading: "Dosis", sans-serif;
+	--ff-body: "Cabin Condensed", sans-serif;
+}
