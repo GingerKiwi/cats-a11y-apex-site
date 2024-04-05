@@ -48,15 +48,23 @@ h3 {
     margin-left: 2rem;
 }
 
+p, a, li {
+    font-size: 1.2rem ;
+}
+
 p {
-    font-size: 1.2rem;
     line-height: 1.5;
     padding: 1rem 2rem;
 }
 
 a {
     color: var(--clr-spice);
-    font-size: 1.2rem ;
+    letter-spacing: .01rem;
+}
+
+a:hover, a:focus {
+    color: var(--clr-bright-pink);
+    font-weight: bold;
 }
 
 footer {
@@ -105,3 +113,8 @@ ul li {
     color: var(--clr-spice);
 }
 
+/* @media screen and (min-width: 768px){
+    h2, h3, h4, h5, h6, p, li {
+        margin: 0 4rem;
+    }
+} */
