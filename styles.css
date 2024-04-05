@@ -16,3 +16,92 @@
     --ff-heading: "Dosis", sans-serif;
 	--ff-body: "Cabin Condensed", sans-serif;
 }
+
+body {
+    font-family: var(--ff-body);
+    background-color: var(--clr-white);
+    color: var(--clr-black-brown);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: var(--ff-heading);
+    color: var(--clr-bright-pink);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 1rem 2rem;
+}
+
+a {
+    color: var(--clr-spice);
+    font-size: 1.2rem ;
+}
+
+footer {
+    background-color: var(--clr-light-pink);
+    color: var(--clr-spice);
+    text-align: center;
+    padding: 1rem;
+}
+
+ol li, ul li {
+    padding: .25rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hero {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    padding-top: 1rem;
+    max-height: 100px;
+  }
+
+.ff-brand {
+    font-family: var(--ff-brand);
+    color: var(--clr-spice)
+}
+
+.margin--bottom-2rem {
+    margin-bottom: 2rem;
+}
+
+.clr-light-pink {
+    color: var(--clr-light-pink);
+}
+.clr-bright-pink {
+    color: var(--clr-bright-pink);
+}
+.clr-spice {
+    color: var(--clr-spice);
+}
+
